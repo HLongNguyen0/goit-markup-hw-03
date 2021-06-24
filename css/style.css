@@ -236,11 +236,15 @@ ol,ul {
   display: flex;
   flex-wrap: wrap;
 }
+.porfolio-content li {
+  border: 1px solid #eeeeee;
+  padding-bottom: 20px;
+}
 .porfolio-content li:not(:nth-child(-n + 3)) {
   margin-top: 30px;
 }
 .porfolio-content li:not(:nth-child(3n)){
-  margin-right: 30px;
+  margin-right: 25px;
 }
 .porfolio-content a {
   display: block;
@@ -249,6 +253,7 @@ ol,ul {
   margin-bottom: 20px;
 }
 .porfolio-content h2 {
+  margin-left: 24px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -256,6 +261,7 @@ ol,ul {
   letter-spacing: 0.06em;
 }
 .porfolio-content p {
+  margin-left: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
