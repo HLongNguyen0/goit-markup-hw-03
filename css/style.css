@@ -25,10 +25,10 @@ ol,ul {
   padding-left: 0;
 }
 /* global */
-.conteiner {
-  width: 1600px;
+.container {
+  width: 1200px;
   margin: 0 auto;
-  padding: 0 215px;
+  padding: 0 15px;
 }
 .nostyle-ul {
   list-style: none;
@@ -45,11 +45,14 @@ ol,ul {
 }
 /* index */
 /* header */
-.header .conteiner {
+.header {
+  border: 1px solid #ececec;
+}
+.header .container {
   display: flex;
   align-items: baseline;
-  padding: 25px 215px;
-  border: 1px solid #ececec;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .header #logo {
   margin-right: 90px;
@@ -81,11 +84,12 @@ ol,ul {
 .hero {
   background: #2F303A;
 }
-.hero .conteiner {
-  padding: 200px 452px;
+.hero .container {
+  padding: 200px 0;
 }
 .hero h1 {
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
+  width: 700px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -111,11 +115,14 @@ ol,ul {
   color: #ffffff;
 }
 /* strength */
-.strength .conteiner {
+.strength {
   padding-top: 94px;
 }
 .strength ul {
   display: flex;
+}
+.strength li {
+  width: 270px;
 }
 .strength li:not(:last-child) {
   margin-right: 30px;
@@ -135,7 +142,7 @@ ol,ul {
   color: var(--greyish);
 }
 /* about */
-.about .conteiner {
+.about {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -159,8 +166,6 @@ ol,ul {
 /* team */
 .team {
   background: #f5f4fa;
-}
-.team .conteiner {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -203,7 +208,7 @@ ol,ul {
   color: var(--greyish);
 }
 /* portfolio */
-.portfolio .conteiner {
+.portfolio {
   margin-top: 94px;
   margin-bottom: 94px;
 }
@@ -236,10 +241,6 @@ ol,ul {
   display: flex;
   flex-wrap: wrap;
 }
-.porfolio-content li {
-  border: 1px solid #eeeeee;
-  padding-bottom: 20px;
-}
 .porfolio-content li:not(:nth-child(-n + 3)) {
   margin-top: 30px;
 }
@@ -250,10 +251,13 @@ ol,ul {
   display: block;
 }
 .porfolio-content img {
-  margin-bottom: 20px;
+  display: block;
+}
+.porfolio-content div {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .porfolio-content h2 {
-  margin-left: 24px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -261,7 +265,6 @@ ol,ul {
   letter-spacing: 0.06em;
 }
 .porfolio-content p {
-  margin-left: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -271,10 +274,11 @@ ol,ul {
 /* footer */
 .footer {
   background: #2F303A;
-}
-.footer .conteiner {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer #logo {
+  color: #ffffff;
 }
 .footer address {
   margin-top: 20px;
