@@ -245,7 +245,7 @@ ol,ul {
   margin-top: 30px;
 }
 .porfolio-content li:not(:nth-child(3n)){
-  margin-right: 25px;
+  margin-right: 30px;
 }
 .porfolio-content a {
   display: block;
